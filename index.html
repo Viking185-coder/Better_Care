@@ -2,40 +2,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Better-Care & Health Wise</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Better Care & Health Wise</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('medicine.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    article {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #ffd700;
+    }
+    video {
+      max-width: 100%;
+      margin: 20px 0;
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <div class="hero">
-        <div class="overlay">
-            <h1>Better-Care & Health Wise</h1>
-            <p>Pre-hospital & In-Hospital Emergency Education & Real-Time Support</p>
-        </div>
-    </div>
+  <header>
+    <h1>Better Care & Health Wise</h1>
+    <p>Your source for emergency medical knowledge and support</p>
+  </header>
 
-    <section class="content">
-        <h2>Empowering Everyone with Emergency Medical Knowledge</h2>
-        <p>Whether it’s a home accident, trauma on the road, or sudden illness, we help you respond the right way — before help arrives and inside the hospital.</p>
+  <nav>
+    <a href="#fainting">Fainting</a>
+    <a href="#bleeding">Bleeding</a>
+    <a href="#broken">Broken Bone</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <article id="fainting">
+      <h2>1. First Aid for Fainting</h2>
+      <p>Fainting, also known as syncope, is a sudden loss of consciousness caused by a lack of blood flow to the brain. Here's what to do before, during, and after fainting, and when to seek help...</p>
+      <video controls>
+        <source src="emergency.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </article>
+
+    <article id="bleeding">
+      <h2>2. Emergency Steps in Case of Bleeding</h2>
+      <p>Bleeding can be life-threatening. Learn how to control minor and severe bleeding, nosebleeds, and more. Always prioritize safety and seek help when needed.</p>
+      <video controls>
+        <source src="emergency2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </article>
+
+    <article id="broken">
+      <h2>3. First Aid for a Broken Bone</h2>
+      <p>Broken bones require prompt care. Discover the correct steps to take in different scenarios and what not to do.</p>
+    </article>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Better Care & Health Wise is a health education platform that provides emergency medical knowledge and real-time support in trauma and illness cases. We aim to empower individuals with life-saving knowledge both pre-hospital and in-hospital.</p>
     </section>
 
-    <footer>
-        <p>© 2025 Better-Care & Health Wise</p>
-    </footer>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: koechemmanuel771@gmail.com</p>
+    </section>
+  </main>
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
+  <footer>
+    &copy; 2025 Better Care & Health Wise. All rights reserved.
+  </footer>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s1.async=true;
     s1.src='https://embed.tawk.to/68814091e3370f191703fcb0/1j0se8ec8';
     s1.charset='UTF-8';
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 </body>
 </html>
